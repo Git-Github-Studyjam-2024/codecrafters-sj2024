@@ -1,1 +1,1 @@
-# codecrafters-sj2024
+# Team: CodeCrafters
