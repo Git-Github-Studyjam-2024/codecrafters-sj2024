@@ -62,6 +62,12 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC_Control\UC_Contact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_Contact.Designer.cs">
+      <DependentUpon>UC_Contact.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC_Control\UC_Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_Contact.resx">
+      <DependentUpon>UC_Contact.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC_Control\UC_Home.resx">
       <DependentUpon>UC_Home.cs</DependentUpon>
