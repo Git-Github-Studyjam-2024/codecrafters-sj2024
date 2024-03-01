@@ -46,9 +46,9 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(134)))), ((int)(((byte)(245)))));
             this.label1.Location = new System.Drawing.Point(474, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(554, 55);
+            this.label1.Size = new System.Drawing.Size(571, 55);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Git & GitHub Study Jam";
+            this.label1.Text = "Git - GitHub Study Jam";
             // 
             // btnAddRoom
             // 
@@ -79,7 +79,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(558, 89);
+            this.label2.Location = new System.Drawing.Point(578, 89);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(363, 35);
             this.label2.TabIndex = 11;
@@ -90,7 +90,7 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(417, 137);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(464, 127);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(590, 426);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -102,7 +102,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(448, 585);
+            this.label3.Location = new System.Drawing.Point(489, 585);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(541, 42);
             this.label3.TabIndex = 13;

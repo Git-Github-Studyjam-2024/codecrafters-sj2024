@@ -67,6 +67,7 @@
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(112)))), ((int)(((byte)(255)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.pnlMoving);
             this.panel1.Controls.Add(this.btnCustomerRegister);
@@ -79,7 +80,7 @@
             // 
             // pnlMoving
             // 
-            this.pnlMoving.BackColor = System.Drawing.Color.White;
+            this.pnlMoving.BackColor = System.Drawing.Color.Cyan;
             this.pnlMoving.BorderRadius = 30;
             this.pnlMoving.Location = new System.Drawing.Point(13, 110);
             this.pnlMoving.Name = "pnlMoving";
@@ -156,7 +157,7 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(11, 12);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(12, 12);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(225, 50);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
