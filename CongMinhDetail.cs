@@ -8,19 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CodeCrafters.UC_Control
+namespace CodeCrafters
 {
-    public partial class UC_Aboutme : UserControl
+    public partial class CongMinhDetail : Form
     {
-        public UC_Aboutme()
+        public CongMinhDetail()
         {
             InitializeComponent();
         }
-
-        private void detailCongMinh_click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-            CongMinhDetail congminh = new CongMinhDetail();
-            congminh.Show();
+            this.Close();
         }
     }
 }

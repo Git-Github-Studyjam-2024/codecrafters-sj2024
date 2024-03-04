@@ -56,6 +56,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CongMinhDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CongMinhDetail.Designer.cs">
+      <DependentUpon>CongMinhDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CongMinhDetail.resx">
+      <DependentUpon>CongMinhDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
