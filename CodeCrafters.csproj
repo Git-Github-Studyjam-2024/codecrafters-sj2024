@@ -56,6 +56,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TrieuPhiDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrieuPhiDetail.Designer.cs">
+      <DependentUpon>TrieuPhiDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrieuPhiDetail.resx">
+      <DependentUpon>TrieuPhiDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC_Control\UC_Aboutme.resx">
       <DependentUpon>UC_Aboutme.cs</DependentUpon>
