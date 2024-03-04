@@ -62,6 +62,12 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="NgocTrangDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NgocTrangDetail.Designer.cs">
+      <DependentUpon>NgocTrangDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC_Control\UC_Aboutme.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NgocTrangDetail.resx">
+      <DependentUpon>NgocTrangDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC_Control\UC_Aboutme.resx">
       <DependentUpon>UC_Aboutme.cs</DependentUpon>
