@@ -16,5 +16,11 @@ namespace CodeCrafters.UC_Control
         {
             InitializeComponent();
         }
+
+        private void picTrieuPhi_Click(object sender, EventArgs e)
+        {
+            TrieuPhiDetail trieuphi =  new TrieuPhiDetail();
+            trieuphi.Show();
+        }
     }
 }
