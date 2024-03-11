@@ -62,6 +62,12 @@
     <Compile Include="CongMinhDetail.Designer.cs">
       <DependentUpon>CongMinhDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="TrieuPhiDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrieuPhiDetail.Designer.cs">
+      <DependentUpon>TrieuPhiDetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,8 +106,12 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TrieuPhiDetail.resx">
+      <DependentUpon>TrieuPhiDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC_Control\UC_Aboutme.resx">
       <DependentUpon>UC_Aboutme.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="UC_Control\UC_Contact.resx">
       <DependentUpon>UC_Contact.cs</DependentUpon>
