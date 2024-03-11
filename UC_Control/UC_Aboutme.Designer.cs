@@ -40,10 +40,16 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.detailCongMinh = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.picTrieuPhi = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.detailngoctrang = new Guna.UI2.WinForms.Guna2PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.detailCongMinh)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTrieuPhi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.detailngoctrang)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -75,10 +81,10 @@
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(813, 359);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(708, 367);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(240, 222);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(240, 195);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox2.TabIndex = 14;
             this.guna2PictureBox2.TabStop = false;
@@ -88,8 +94,8 @@
             this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
             this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(1005, 69);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(896, 23);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
             this.guna2PictureBox3.Size = new System.Drawing.Size(240, 222);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -101,7 +107,7 @@
             this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
             this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(1146, 359);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(1069, 367);
             this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.Size = new System.Drawing.Size(240, 222);
@@ -148,9 +154,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Comic Sans MS", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(1000, 293);
+            this.label5.Location = new System.Drawing.Point(867, 287);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(272, 32);
+            this.label5.Size = new System.Drawing.Size(262, 31);
             this.label5.TabIndex = 21;
             this.label5.Text = "Leader - Đái Triệu Phi";
             // 
@@ -159,9 +166,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Comic Sans MS", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(789, 583);
+            this.label6.Location = new System.Drawing.Point(663, 591);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(272, 32);
+            this.label6.Size = new System.Drawing.Size(265, 31);
             this.label6.TabIndex = 22;
             this.label6.Text = "Member: Võ Công Minh";
             // 
@@ -170,16 +177,59 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Comic Sans MS", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(1093, 583);
+            this.label7.Location = new System.Drawing.Point(1017, 591);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(364, 32);
+            this.label7.Size = new System.Drawing.Size(354, 31);
             this.label7.TabIndex = 23;
             this.label7.Text = "Member: Trần Thị Ngọc Trang";
+            // 
+            // detailCongMinh
+            // 
+            this.detailCongMinh.Image = ((System.Drawing.Image)(resources.GetObject("detailCongMinh.Image")));
+            this.detailCongMinh.ImageRotate = 0F;
+            this.detailCongMinh.Location = new System.Drawing.Point(953, 591);
+            this.detailCongMinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.detailCongMinh.Name = "detailCongMinh";
+            this.detailCongMinh.Size = new System.Drawing.Size(45, 31);
+            this.detailCongMinh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.detailCongMinh.TabIndex = 26;
+            this.detailCongMinh.TabStop = false;
+            this.detailCongMinh.Click += new System.EventHandler(this.detailCongMinh_click);
+            // 
+            // picTrieuPhi
+            // 
+            this.picTrieuPhi.Image = ((System.Drawing.Image)(resources.GetObject("picTrieuPhi.Image")));
+            this.picTrieuPhi.ImageRotate = 0F;
+            this.picTrieuPhi.Location = new System.Drawing.Point(1161, 280);
+            this.picTrieuPhi.Margin = new System.Windows.Forms.Padding(4);
+            this.picTrieuPhi.Name = "picTrieuPhi";
+            this.picTrieuPhi.Size = new System.Drawing.Size(61, 38);
+            this.picTrieuPhi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picTrieuPhi.TabIndex = 25;
+            this.picTrieuPhi.TabStop = false;
+            this.picTrieuPhi.Click += new System.EventHandler(this.picTrieuPhi_Click);
+            // 
+            // detailngoctrang
+            // 
+            this.detailngoctrang.Image = ((System.Drawing.Image)(resources.GetObject("detailngoctrang.Image")));
+            this.detailngoctrang.ImageRotate = 0F;
+            this.detailngoctrang.Location = new System.Drawing.Point(1378, 584);
+            this.detailngoctrang.Margin = new System.Windows.Forms.Padding(4);
+            this.detailngoctrang.Name = "detailngoctrang";
+            this.detailngoctrang.Size = new System.Drawing.Size(61, 38);
+            this.detailngoctrang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.detailngoctrang.TabIndex = 27;
+            this.detailngoctrang.TabStop = false;
+            this.detailngoctrang.Click += new System.EventHandler(this.detailngoctrang_Click);
             // 
             // UC_Aboutme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Transparent;
+            this.Controls.Add(this.detailngoctrang);
+            this.Controls.Add(this.detailCongMinh);
+            this.Controls.Add(this.picTrieuPhi);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -191,13 +241,16 @@
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "UC_Aboutme";
-            this.Size = new System.Drawing.Size(1476, 646);
+            this.Size = new System.Drawing.Size(1561, 646);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.detailCongMinh)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTrieuPhi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.detailngoctrang)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,5 +269,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private Guna.UI2.WinForms.Guna2PictureBox detailCongMinh;
+        private Guna.UI2.WinForms.Guna2PictureBox picTrieuPhi;
+        private Guna.UI2.WinForms.Guna2PictureBox detailngoctrang;
     }
 }

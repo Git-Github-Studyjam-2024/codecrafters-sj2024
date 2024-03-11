@@ -56,17 +56,29 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dashboard.cs">
+    <Compile Include="CongMinhDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboard.Designer.cs">
-      <DependentUpon>Dashboard.cs</DependentUpon>
+    <Compile Include="CongMinhDetail.Designer.cs">
+      <DependentUpon>CongMinhDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="NgocTrangDetail.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NgocTrangDetail.Designer.cs">
       <DependentUpon>NgocTrangDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrieuPhiDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrieuPhiDetail.Designer.cs">
+      <DependentUpon>TrieuPhiDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="UC_Control\UC_Aboutme.cs">
       <SubType>UserControl</SubType>
@@ -94,14 +106,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CongMinhDetail.resx">
+      <DependentUpon>CongMinhDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NgocTrangDetail.resx">
       <DependentUpon>NgocTrangDetail.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TrieuPhiDetail.resx">
+      <DependentUpon>TrieuPhiDetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC_Control\UC_Aboutme.resx">
       <DependentUpon>UC_Aboutme.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="UC_Control\UC_Contact.resx">
       <DependentUpon>UC_Contact.cs</DependentUpon>
