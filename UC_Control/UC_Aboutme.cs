@@ -26,5 +26,11 @@ namespace CodeCrafters.UC_Control
             TrieuPhiDetail trieuphi =  new TrieuPhiDetail();
             trieuphi.Show();
         }
+
+        private void detailngoctrang_Click(object sender, EventArgs e)
+        {
+            NgocTrangDetail ngocTrang = new NgocTrangDetail();  
+            ngocTrang.Show();
+        }
     }
 }
