@@ -16,7 +16,11 @@ namespace CodeCrafters.UC_Control
         {
             InitializeComponent();
         }
-
+        private void detailCongMinh_click(object sender, EventArgs e)
+        {
+            CongMinhDetail congminh = new CongMinhDetail();
+            congminh.Show();
+        }
         private void picTrieuPhi_Click(object sender, EventArgs e)
         {
             TrieuPhiDetail trieuphi =  new TrieuPhiDetail();

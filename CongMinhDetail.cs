@@ -10,23 +10,12 @@ using System.Windows.Forms;
 
 namespace CodeCrafters
 {
-    public partial class TrieuPhiDetail : Form
+    public partial class CongMinhDetail : Form
     {
-        public TrieuPhiDetail()
+        public CongMinhDetail()
         {
             InitializeComponent();
         }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
